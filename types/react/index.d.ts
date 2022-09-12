@@ -2459,7 +2459,7 @@ declare namespace React {
     }
 
     interface TdHTMLAttributes<T> extends HTMLAttributes<T> {
-        align?: "left" | "center" | "right" | "justify" | "char" | undefined;
+        align?: "left" | "center" | "right" | "justify" | undefined;
         colSpan?: number | undefined;
         headers?: string | undefined;
         rowSpan?: number | undefined;
@@ -2471,7 +2471,7 @@ declare namespace React {
     }
 
     interface ThHTMLAttributes<T> extends HTMLAttributes<T> {
-        align?: "left" | "center" | "right" | "justify" | "char" | undefined;
+        align?: "left" | "center" | "right" | "justify" | undefined;
         colSpan?: number | undefined;
         headers?: string | undefined;
         rowSpan?: number | undefined;
